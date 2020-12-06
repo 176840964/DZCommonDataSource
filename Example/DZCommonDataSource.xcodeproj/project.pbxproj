@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		82E8BDC6257CB53F0066E350 /* DZPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8BDC5257CB53F0066E350 /* DZPresent.m */; };
+		82E8BDCB257CB5A40066E350 /* DZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8BDCA257CB5A40066E350 /* DZTableViewCell.m */; };
+		82E8BDE9257CB8490066E350 /* DZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8BDE8257CB8490066E350 /* DZModel.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FDECCA44E69432D99169C287 /* Pods_DZCommonDataSource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9257BE13637B53AB561AFB3 /* Pods_DZCommonDataSource_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -39,8 +42,8 @@
 /* Begin PBXFileReference section */
 		0811ABF754235AD9BBA67CB4 /* Pods-DZCommonDataSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZCommonDataSource_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DZCommonDataSource_Tests/Pods-DZCommonDataSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		15366A259318DF37157EBCC5 /* Pods-DZCommonDataSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZCommonDataSource_Tests.release.xcconfig"; path = "Target Support Files/Pods-DZCommonDataSource_Tests/Pods-DZCommonDataSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16F237A39EC06816340F1A0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1F7A8BA4544E8519F2BB6DFF /* DZCommonDataSource.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DZCommonDataSource.podspec; path = ../DZCommonDataSource.podspec; sourceTree = "<group>"; };
+		16F237A39EC06816340F1A0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F7A8BA4544E8519F2BB6DFF /* DZCommonDataSource.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DZCommonDataSource.podspec; path = ../DZCommonDataSource.podspec; sourceTree = "<group>"; };
 		4AA7472A3DBF8149AA011093 /* Pods_DZCommonDataSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZCommonDataSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1276392A2B7BC7059DD6A1 /* Pods-DZCommonDataSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZCommonDataSource_Example.release.xcconfig"; path = "Target Support Files/Pods-DZCommonDataSource_Example/Pods-DZCommonDataSource_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DZCommonDataSource_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZCommonDataSource_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +66,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E8BDC4257CB53F0066E350 /* DZPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZPresent.h; sourceTree = "<group>"; };
+		82E8BDC5257CB53F0066E350 /* DZPresent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZPresent.m; sourceTree = "<group>"; };
+		82E8BDC9257CB5A40066E350 /* DZTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZTableViewCell.h; sourceTree = "<group>"; };
+		82E8BDCA257CB5A40066E350 /* DZTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZTableViewCell.m; sourceTree = "<group>"; };
+		82E8BDE7257CB8490066E350 /* DZModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZModel.h; sourceTree = "<group>"; };
+		82E8BDE8257CB8490066E350 /* DZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZModel.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3C1C730687EDCD8E65E7D09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3C1C730687EDCD8E65E7D09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1DAF5DDB5C293880FC8CCB9 /* Pods-DZCommonDataSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZCommonDataSource_Example.debug.xcconfig"; path = "Target Support Files/Pods-DZCommonDataSource_Example/Pods-DZCommonDataSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9257BE13637B53AB561AFB3 /* Pods_DZCommonDataSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZCommonDataSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,11 +141,10 @@
 		6003F593195388D20070C39A /* Example for DZCommonDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				82E8BDEE257CBB6B0066E350 /* Home */,
 				6003F59C195388D20070C39A /* DZAppDelegate.h */,
 				6003F59D195388D20070C39A /* DZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DZViewController.h */,
-				6003F5A6195388D20070C39A /* DZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -185,6 +193,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		82E8BDEE257CBB6B0066E350 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				82E8BDC4257CB53F0066E350 /* DZPresent.h */,
+				82E8BDC5257CB53F0066E350 /* DZPresent.m */,
+				82E8BDE7257CB8490066E350 /* DZModel.h */,
+				82E8BDE8257CB8490066E350 /* DZModel.m */,
+				82E8BDC9257CB5A40066E350 /* DZTableViewCell.h */,
+				82E8BDCA257CB5A40066E350 /* DZTableViewCell.m */,
+				6003F5A5195388D20070C39A /* DZViewController.h */,
+				6003F5A6195388D20070C39A /* DZViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		E654D7EA78EA1AC62FD88842 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +216,6 @@
 				0811ABF754235AD9BBA67CB4 /* Pods-DZCommonDataSource_Tests.debug.xcconfig */,
 				15366A259318DF37157EBCC5 /* Pods-DZCommonDataSource_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,7 +249,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				353A2A3361FC7A1F208BE743 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +318,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		353A2A3361FC7A1F208BE743 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DZCommonDataSource_Tests/Pods-DZCommonDataSource_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZCommonDataSource_Tests/Pods-DZCommonDataSource_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		84BE94C91E7FA3929471D151 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,10 +348,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DZCommonDataSource_Example/Pods-DZCommonDataSource_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DZCommonDataSource/DZCommonDataSource.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZCommonDataSource.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,6 +390,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
+				82E8BDCB257CB5A40066E350 /* DZTableViewCell.m in Sources */,
+				82E8BDC6257CB53F0066E350 /* DZPresent.m in Sources */,
+				82E8BDE9257CB8490066E350 /* DZModel.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

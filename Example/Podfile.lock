@@ -1,0 +1,23 @@
+PODS:
+  - DZCommonDataSource (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - DZCommonDataSource (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  DZCommonDataSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZCommonDataSource: e2bcaf761c929a839bf7524ec2dbd9685e288ebe
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: bf950af1f9a8e19576ef7b1a568cfaffef3f3ba8
+
+COCOAPODS: 1.8.4

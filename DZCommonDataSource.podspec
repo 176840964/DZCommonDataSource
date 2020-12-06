@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DZCommonDataSource'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DZCommonDataSource.'
+  s.summary          = 'test组件化'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  练习组件，并封装了有关tableview和collectionview的datasource组件。
                        DESC
 
   s.homepage         = 'https://github.com/176840964/DZCommonDataSource'

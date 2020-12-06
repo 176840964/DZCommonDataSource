@@ -10,4 +10,6 @@
 
 @interface DZViewController : UIViewController
 
+- (void)reloadUI;
+
 @end

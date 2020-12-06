@@ -4,10 +4,9 @@ platform :ios, '9.0'
 
 target 'DZCommonDataSource_Example' do
   pod 'DZCommonDataSource', :path => '../'
-
+  pod 'Masonry'
   target 'DZCommonDataSource_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    
   end
 end

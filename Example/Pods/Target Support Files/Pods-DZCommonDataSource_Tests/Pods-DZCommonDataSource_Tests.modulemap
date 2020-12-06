@@ -1,0 +1,6 @@
+framework module Pods_DZCommonDataSource_Tests {
+  umbrella header "Pods-DZCommonDataSource_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

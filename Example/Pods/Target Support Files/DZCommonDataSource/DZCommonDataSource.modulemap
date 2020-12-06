@@ -1,0 +1,6 @@
+framework module DZCommonDataSource {
+  umbrella header "DZCommonDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}
