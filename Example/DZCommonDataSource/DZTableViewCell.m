@@ -53,7 +53,6 @@
     self.numLab.text = model.num;
     self.indexPath = indexPath;
     self.delegate = delegaet;
-    
 }
 
 #pragma mark -
